@@ -1,0 +1,21 @@
+.content {
+    margin: 15px 0;
+}
+
+.content span{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content input{
+    margin-top: 5px;
+    border: 1px solid #333;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 14px;
+    background: #333;
+    color: white;
+}
