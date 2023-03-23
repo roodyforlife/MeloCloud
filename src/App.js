@@ -1,4 +1,3 @@
-import Player from './components/Player';
 import {BrowserRouter} from 'react-router-dom';
 import styles from './styles/App.module.css';
 import AppRouter from './components/AppRoutes';
@@ -19,14 +18,14 @@ const App = observer(() => {
         user.setIsAuth(true)
       })
       .finally(() => setLoading(false))
-  }, [])
+  }, [user])
 
   if(loading){
     return <Spinner />
   }
 
   return (
-    <div>
+    <div className={styles}>
       <BrowserRouter>
         <AppRouter />
       </BrowserRouter>

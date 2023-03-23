@@ -15,6 +15,8 @@ export default function UserLogin() {
                 "Authorization": `Bearer ${response.access_token}`
               }
             })
+
+            console.log(data)
         }
       });
   return (

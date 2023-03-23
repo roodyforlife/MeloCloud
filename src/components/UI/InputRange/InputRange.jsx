@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import cl from './InputRange.module.css';
 
 export default function InputRange({position}) {
